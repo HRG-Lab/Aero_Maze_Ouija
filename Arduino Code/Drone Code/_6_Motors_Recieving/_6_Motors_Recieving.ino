@@ -17,11 +17,13 @@ Servo esc6;
 XBee xbee = XBee();
 EasyTransfer ET; 
 int value;
-int dist_low=5;//lower bound of distance: declared for all motors. Change depending where you want your lower bound to be
-int dist_high=80;//upper bound of distance: declared for all motors. Change depending where you want your upper bound to be
-int motor_low=1300;//lower bound of motor speed: declared for all motors. Change depending where the motor turn on point is
-int motor_high=1500;//upper bound of motor speed: declared for all motors. Change depending where the motor max speed is
-int val_default=700;//default motor speed for off: declared for all motors. Change as needed to value that motor is not on yet. 0 does not work for this
+int dist_low=5;//lower bound of distance for 20815 transmit: declared for all motors. Change depending where you want your lower bound to be
+int dist_low2=20;//lower bound of distance for MAXSONAR transmit: declared for all motors. Change depending on where you want your lower bound to be
+int dist_high=80;//upper bound of distance for 20815 transmit: declared for all motors. Change depending where you want your upper bound to be
+int dist_high2=95;//upper bound of distance for MAXSONAR transmit: declared for all motors. Change depending on where you want your upper bound to be
+int motor_low=600;//lower bound of motor speed: declared for all motors. Change depending where the motor turn on point is
+int motor_high=1450;//upper bound of motor speed: declared for all motors. Change depending where the motor max speed is
+int val_default=500;//default motor speed for off: declared for all motors. Change as needed to value that motor is not on yet. 0 does not work for this
 //Rx16Response rx16 = Rx16Response();
 
 //recieved data structure is from each sensor transmission setup, including an identifying character
@@ -88,8 +90,10 @@ float data6=0;
 void loop(){
   //check and see if a data packet has come in.
   //each case controls a single motor dependent on the recieved "id" character in the recieved data struct "data"
-  //the motors will turn on when the distance sensed is less than 80
+
   if(ET.receiveData()){
+    //case 'a' 'b' 'c' dist_low and dist_high bounds are set for accurate reading from 20815 sensor (reads accurately from 5cm to 80cm)
+    //case 'd' 'e' 'f' dist_low2 and dist_high2 bounds are set for accurate reading from MAXSONAR sensor (reads accurately from 20cm to 95cm)
       switch (data.id){
         /*************************************************************************************************************************/
         case 'a':
@@ -128,8 +132,8 @@ void loop(){
         /**********************************************************************************************************************************/
         case 'd':
         data4=data.cm;
-        if (data.cm<=80&&data.cm!=0){
-          val4= map(data.cm, dist_low, dist_high,motor_high,motor_low); //mapping val to minimum and maximum(Change if needed) 
+        if (data.cm<=95&&data.cm>=20){
+          val4= map(data.cm, dist_low2, dist_high2,motor_high,motor_low); //mapping val to minimum and maximum(Change if needed) 
         }
         else{
           val4=val_default;
@@ -141,8 +145,8 @@ void loop(){
         case 'e':
         data5=data.cm;
         //rssi5=-20*log(t)/log(10);
-        if (data.cm<=80&&data.cm!=0){
-       val5= map(data.cm, dist_low, dist_high,motor_high,motor_low); //mapping val to minimum and maximum(Change if needed) 
+        if (data.cm<=95&&data.cm>=20){
+       val5= map(data.cm, dist_low2, dist_high2,motor_high,motor_low); //mapping val to minimum and maximum(Change if needed) 
        }
         else{
         val5=val_default;
@@ -152,8 +156,8 @@ void loop(){
         /**********************************************************************************************************************************/
         case 'f':
         data6=data.cm;
-        if (data.cm<=80&&data.cm!=0){
-       val6= map(data.cm, dist_low, dist_high,motor_high,motor_low); //mapping val to minimum and maximum(Change if needed) 
+        if (data.cm<=95&&data.cm>=20){
+       val6= map(data.cm, dist_low2, dist_high2,motor_high,motor_low); //mapping val to minimum and maximum(Change if needed) 
        }
         else{
         val6=val_default;
