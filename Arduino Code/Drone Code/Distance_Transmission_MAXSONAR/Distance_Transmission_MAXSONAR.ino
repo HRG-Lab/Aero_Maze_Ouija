@@ -12,7 +12,7 @@ float val = 0;
 EasyTransfer ET; //creates object
 
 struct SEND_DATA {   //puts all the variables inside a struct to send a packet of data
-  char id='a';
+  char id='f';
   float cm; 
 };
 

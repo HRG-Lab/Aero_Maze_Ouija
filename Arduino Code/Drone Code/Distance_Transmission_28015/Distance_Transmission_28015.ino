@@ -3,7 +3,7 @@ This is for transmitting data through the Easy Transfer Library to the flying ma
 sensor. This code was written for Teensy 3.0 and Teensy LC. Other versions of Teensy or Arduino may require the 
 Serial3 to be changed. 
 */
-// Jared added this right here
+
 //LINK for the EasyTranfer library download: 
 //http://www.billporter.info/2011/05/30/easytransfer-arduino-library/
 //     for easy data tranfer using packets
@@ -16,7 +16,11 @@ float duration1;
 EasyTransfer ET; //creates object
 
 struct SEND_DATA {   //puts all the variables inside a struct to send a packet of data
+<<<<<<< HEAD
   char id='d';//change this character based on which sending setup this code is loaded on a-b-c-d-e-f 
+=======
+  char id='e';//change this character based on which sending setup this code is loaded on a-b-c-d-e-f 
+>>>>>>> 88ebf8c02d49557ea83166c37c8dd9138d93c9c3
   float cm; 
 };
 
