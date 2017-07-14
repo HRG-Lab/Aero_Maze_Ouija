@@ -6,7 +6,7 @@ The Aero Maze Ouija is an apparatus consisting of a group of sensors coordinatin
 The project is intended to be used as a teambuilding exercise. The game, as designed, is meant for six players.
 Each player will be assigned a distance sensor which will be used to measure the length between the sensor and each player's hand.
 This data is then sent to the drone and mapped to a PWM value to control the speed of each motor.
-Each of the six motors are linked to one specific sensor, so each player will be in control of one propeller.
+Each of the six motors is linked to one specific sensor, so each player will be in control of one propeller.
 There will be a maze etched into the drone where there will be a marble or bb.
 The goal of the game is to work as a team and navigate the marble through the maze by controlling the orientation of the drone.
 
