@@ -15,33 +15,32 @@ The goal of the game is to work as a team and navigate the marble through the ma
 - - - -
 
 ## Required Software and Libraries ##
-* Arduino
-* XCTU
+* Arduino v1.8.1
+* XCTU to setup Xbee's
 * Autodesk Fusion 360 (Optional, but you can size the maze we designed)
-* then the required libraries for Arduino
-
+* Arduino Libraries:
+  * Teesnyduino
+  * EasyTransfer Library
+  
 - - - -
 
 ## Required Hardware ##
 * A body for your drone, preferably made out of fiberglass
 * 6 Turnigy Aerodrive D3536/9 910 KV Motors
 * 6 Mounts designed for the Turnigy motors
-* 6 Propellers
+* 6 Propellers, we used 3 1045's and 3 1045R's
 * 6 Metal U channels
 * An assortment of screws
 * 7 xBees
-* 6 Hobby King 30A UBEC's
+* 6 ESC's, we used 6 Hobby King 30A UBEC's
 * 3 Leg stands to attach to the U channels
+* Xbee explorer board to
+* Breadboard to mount electronics
+* At least 8 pairs of XT60 connectors and the corresponding wires
 
 - - - -
 
-## Steps to Assemble ##
+## Tools Needed for Assembly ##
 
-1. Drill holes in the wood where you will attach the channels
-2. Cut a maze
-3. Program the Xbees
-4. Wire the sensors
-5. Program the ESC's
-6. Mount the motors
-7. Test the motors/sensors with the test code
-8. Enjoy
+* CNC Router to sketch the maze
+* Power tools needed to drill holes etc.
