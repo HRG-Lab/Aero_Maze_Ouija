@@ -178,6 +178,7 @@ Serial.print(data5);
 Serial.print(",");
 Serial.print(data6);
 Serial.print("\n"); 
+
   //you should make this delay shorter then your transmit delay or else messages could be lost
   delay(100);
 }
