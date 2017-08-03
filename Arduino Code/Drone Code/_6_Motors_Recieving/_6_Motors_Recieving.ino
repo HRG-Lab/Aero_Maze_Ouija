@@ -111,7 +111,7 @@ void loop(){
         case 'b':
         data2=data.cm;
         if (data.cm<=80&&data.cm!=0){
-       val2= map(data.cm, dist_low, dist_high,1480,high_low); //mapping val to minimum and maximum(Change if needed) 
+       val2= map(data.cm, dist_low, dist_high,motor_high,motor_low); //mapping val to minimum and maximum(Change if needed) 
        }
         else{
         val2=val_default;
@@ -166,21 +166,20 @@ void loop(){
         break;
         /**********************************************************************************************************************************/     
 }
-Serial.print("A=");
 Serial.print(data1);
-Serial.print(" B=");
+Serial.print(",");
 Serial.print(data2);
-Serial.print(" C=");
+Serial.print(",");
 Serial.print(data3);
-Serial.print(" D=");
+Serial.print(",");
 Serial.print(data4);
-Serial.print(" E=");
+Serial.print(",");
 Serial.print(data5);
-Serial.print(" F=");
+Serial.print(",");
 Serial.print(data6);
 Serial.print("\n"); 
   //you should make this delay shorter then your transmit delay or else messages could be lost
-  delay(50);
+  delay(100);
 }
 }
 
