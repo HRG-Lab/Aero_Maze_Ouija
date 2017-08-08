@@ -166,21 +166,20 @@ void loop(){
         break;
         /**********************************************************************************************************************************/     
 }
-Serial.print("A=");
 Serial.print(data1);
-Serial.print(" B=");
+Serial.print(",");
 Serial.print(data2);
-Serial.print(" C=");
+Serial.print(",");
 Serial.print(data3);
-Serial.print(" D=");
+Serial.print(",");
 Serial.print(data4);
-Serial.print(" E=");
+Serial.print(",");
 Serial.print(data5);
-Serial.print(" F=");
+Serial.print(",");
 Serial.print(data6);
 Serial.print("\n"); 
   //you should make this delay shorter then your transmit delay or else messages could be lost
-  delay(50);
+  delay(100);
 }
 }
 
