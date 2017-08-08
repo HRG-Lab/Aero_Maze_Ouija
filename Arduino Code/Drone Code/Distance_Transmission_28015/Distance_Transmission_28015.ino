@@ -16,11 +16,9 @@ float duration1;
 EasyTransfer ET; //creates object
 
 struct SEND_DATA {   //puts all the variables inside a struct to send a packet of data
-<<<<<<< HEAD
-  char id='d';//change this character based on which sending setup this code is loaded on a-b-c-d-e-f 
-=======
-  char id='e';//change this character based on which sending setup this code is loaded on a-b-c-d-e-f 
->>>>>>> 88ebf8c02d49557ea83166c37c8dd9138d93c9c3
+
+  char id='c';//change this character based on which sending setup this code is loaded on a-b-c-d-e-f 
+
   float cm; 
 };
 
@@ -66,8 +64,8 @@ void loop() {
   ET.sendData();
 
   //printing the data to my serial monitor
-  Serial.print(data.cm);
-  Serial.print(", ");
+  Serial.println(data.cm);
+  //Serial.print(", ");
 
   //printing data to the other serial monitor on the recieving end
   //Serial3.print(data.cm); //This line is not needed since EasyTransfer library is being used

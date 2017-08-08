@@ -111,7 +111,7 @@ void loop(){
         case 'b':
         data2=data.cm;
         if (data.cm<=80&&data.cm!=0){
-       val2= map(data.cm, dist_low, dist_high,1480,high_low); //mapping val to minimum and maximum(Change if needed) 
+       val2= map(data.cm, dist_low, dist_high,motor_high,motor_low); //mapping val to minimum and maximum(Change if needed) 
        }
         else{
         val2=val_default;
