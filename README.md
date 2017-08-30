@@ -10,7 +10,7 @@ Each of the six motors is linked to one specific sensor, so each player will be 
 There will be a maze etched into the drone where there will be a marble or bb.
 The goal of the game is to work as a team and navigate the marble through the maze by controlling the orientation of the drone.
 
-![drone_overview](https://user-images.githubusercontent.com/29260218/28187684-2bd9d990-67e5-11e7-8d4f-728c548a2976.png)
+![drone-overview](https://user-images.githubusercontent.com/29206348/29893357-70e78dfc-8d97-11e7-889a-9c113aed6986.JPG)
 
 - - - -
 
