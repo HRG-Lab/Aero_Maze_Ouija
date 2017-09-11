@@ -11,7 +11,7 @@ float duration1, duration2;
 EasyTransfer ET; //creates object
 
 struct SEND_DATA {   //puts all the variables inside a struct to send a packet of data
-  char id='b';
+  char id='c';
   float cm; 
 };
 

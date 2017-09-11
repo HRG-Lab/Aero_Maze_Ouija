@@ -17,7 +17,7 @@ EasyTransfer ET; //creates object
 
 struct SEND_DATA {   //puts all the variables inside a struct to send a packet of data
 
-  char id='c';//change this character based on which sending setup this code is loaded on a-b-c-d-e-f 
+  char id='b';//change this character based on which sending setup this code is loaded on a-b-c-d-e-f 
 
   float cm; 
 };
