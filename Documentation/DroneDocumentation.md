@@ -1,3 +1,7 @@
+#### Areo-Smith Maze  ####
+
+![image002](https://user-images.githubusercontent.com/29260264/30716439-a94e8304-9edf-11e7-8484-e1181e104f87.gif)
+
 ### Aerosmith Maze ###
 * Diameter: 48 cm
 * Thickness: 1.2 cm
