@@ -9,6 +9,7 @@
  - - - -
  ![image003](https://user-images.githubusercontent.com/29260264/30824770-33f8e4cc-a1f6-11e7-97eb-0d08eaadc9d0.png)
  ![image004](https://user-images.githubusercontent.com/29260264/30824829-71620d7a-a1f6-11e7-8a2c-a71528adc6a3.gif)
+ ![image020](https://user-images.githubusercontent.com/29260264/30824936-d1c16d50-a1f6-11e7-80b9-5415527e29c3.gif)
 
 ### Required Materials ###
 * 1 Round piece of wood 
