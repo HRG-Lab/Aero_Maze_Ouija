@@ -17,6 +17,12 @@
 ![image042](https://user-images.githubusercontent.com/29260264/30825557-03e7090a-a1f9-11e7-96ae-c3a3d9a35553.gif)
 
 
+### Overview ###
+ &nbsp;&nbsp;For this project, the goal was to build a maze that a small metal bb pellet could navigate. This was done mainly through the use of teensy microcontrollers, ultrasonic sensors, ESC motors and xbee radio modules.
+&nbsp;&nbsp;The maze outline, resembling a smith chart, was carved into a large, round piece of plexiglass with a CNC machine. Six ESC motors are attached to this piece of plexiglass, which tilt the maze in various directions, based on how fast each motor is spinning. This is how the bb navigates the maze, as each motor receives data from an ultrasonic sensor which tells it how fast or slow to spin. Each ultrasonic sensor will output a distance measurement based on how close or far an object is to it. The distance value that each sensor outputs is sent to a teensy microcontroller, which is programmed to send the data through an XBee module. The data is sent wirelessly to another XBee on the receiving end, which is connected to another teensy. This teensy is attached to the plexiglass maze, and is programmed to control all of the 6 motors, based on the different values it receives from each of the 6 sensors.
+&nbsp;&nbsp;The maze is designed to be controlled by 6 different people at one time, with each person controlling one motor by moving their hands in front of an ultrasonic sensor. Based on how the teensys were programmed, the closer your hand is to the ultrasonic sensor, the faster the motor will spin. Therefore, to tilt the maze up in one direction, one person will have to move their hand closer to the ultrasonic sensor that corresponds to that specific motor. The maze is attached to a ball and socket joint which is tethered to a tripod, which allows it the freedom to rotate in any direction, without the maze flying away due to the lift of the motors. This project was designed to encourage people to work together to complete a task, and the maze is best navigated when the speed of one motor is changed at a time.
+&nbsp;&nbsp;This document will outline the materials needed and the steps that should be  taken in order to build the Aerosmith maze, and a list of references that was used will be included at the end.
+
 ### Required Materials ###
 * 1 Round piece of wood 
 * 6 Turnigy Aerodrives motors (D3536/9 910KV) (https://hobbyking.com/en_us/turnigy-d3536-9-910kv-brushless-outrunner-motor.html)
