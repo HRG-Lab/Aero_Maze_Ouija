@@ -183,10 +183,10 @@
 ## Producing 3D Printed Housing ##
 
 * Using Autodesk Fusion 360 
-	* The housing for the sensors consisted of a 3D printed box and lid seen below
+	* The housing for the sensors consisted of a 3D printed box and lid seen below: Dimensions 8.5cm by 7.5cm by 7.4cm
 	![image037](https://user-images.githubusercontent.com/29260264/30825345-3d657d48-a1f8-11e7-92df-32eeb1e280d9.png)
         ![image042](https://user-images.githubusercontent.com/29260264/30825557-03e7090a-a1f9-11e7-96ae-c3a3d9a35553.gif)
-	* Brackets were made for the maze to be mounted on as seen below &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+	* Brackets were made for the maze to be mounted on as seen below: &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
 	![image032](https://user-images.githubusercontent.com/29260264/30825217-c85f32be-a1f7-11e7-82a3-0dc082c4c400.gif)
 	![image035](https://user-images.githubusercontent.com/29260264/30825247-dd5dc702-a1f7-11e7-8d6a-d9c49f644494.gif)
 	![image036](https://user-images.githubusercontent.com/29260264/30825303-13699434-a1f8-11e7-8637-f4e0008514f1.gif)
@@ -195,7 +195,7 @@
 
 ## Finialized Product ##
 
-* Below are pictures depicting the final product
+* Below are pictures depicting the final product:
 ![image045](https://user-images.githubusercontent.com/29260264/31088327-d95c3972-a765-11e7-8fe0-ec863797b32d.jpg)
 ![image046](https://user-images.githubusercontent.com/29260264/31088314-ceff1e9a-a765-11e7-916d-c00da4ade9be.jpg)
 ![image047](https://user-images.githubusercontent.com/29260264/31088340-eb1e9bbe-a765-11e7-84d4-3404215f7442.jpg)
