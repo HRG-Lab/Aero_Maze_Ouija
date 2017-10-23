@@ -151,7 +151,6 @@
     
     *Pictured Left: the three input connection: This is used in programming the esc and will be connected to the Teensy. Middle: This shows the wires from the Teensy connected to the three input connection (note that the green wires in this image represent the ground wire). Left: The esc with the input side (top) and output side to be connected to the motors (bottom)*
 
-## Insert image of the signal wires ##
 
 * The code for receiving the packets of data and sending out a signal to the motors can be found under the file-path:
 `Aero_Maze_Ouija/Arduino Code/Drone Code/_6_Motors_Recieving/_6_Motors_Recieving.ino`
