@@ -7,14 +7,7 @@
 * Thickness: 1.2 cm
  
  - - - -
- ![image003](https://user-images.githubusercontent.com/29260264/30824770-33f8e4cc-a1f6-11e7-97eb-0d08eaadc9d0.png)
- ![image004](https://user-images.githubusercontent.com/29260264/30824829-71620d7a-a1f6-11e7-8a2c-a71528adc6a3.gif)
- ![image020](https://user-images.githubusercontent.com/29260264/30824936-d1c16d50-a1f6-11e7-80b9-5415527e29c3.gif)
- ![image032](https://user-images.githubusercontent.com/29260264/30825217-c85f32be-a1f7-11e7-82a3-0dc082c4c400.gif)
-![image035](https://user-images.githubusercontent.com/29260264/30825247-dd5dc702-a1f7-11e7-8d6a-d9c49f644494.gif)
-![image036](https://user-images.githubusercontent.com/29260264/30825303-13699434-a1f8-11e7-8637-f4e0008514f1.gif)
-![image037](https://user-images.githubusercontent.com/29260264/30825345-3d657d48-a1f8-11e7-92df-32eeb1e280d9.png)
-![image042](https://user-images.githubusercontent.com/29260264/30825557-03e7090a-a1f9-11e7-96ae-c3a3d9a35553.gif)
+ 
 
 
 ### Overview ###
@@ -194,8 +187,16 @@
 	* The housing for the sensors consisted of a 3D printed box and lid seen below
 	![image037](https://user-images.githubusercontent.com/29260264/30825345-3d657d48-a1f8-11e7-92df-32eeb1e280d9.png)
         ![image042](https://user-images.githubusercontent.com/29260264/30825557-03e7090a-a1f9-11e7-96ae-c3a3d9a35553.gif)
-	* Brackets were made for the maze to be mounted on seen below &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+	* Brackets were made for the maze to be mounted on  as seen below &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
 	![image032](https://user-images.githubusercontent.com/29260264/30825217-c85f32be-a1f7-11e7-82a3-0dc082c4c400.gif)
 	![image035](https://user-images.githubusercontent.com/29260264/30825247-dd5dc702-a1f7-11e7-8d6a-d9c49f644494.gif)
 	![image036](https://user-images.githubusercontent.com/29260264/30825303-13699434-a1f8-11e7-8637-f4e0008514f1.gif)
+	![img_20170925_134212](https://user-images.githubusercontent.com/29260264/31900624-af5ee7c0-b7e4-11e7-893e-a8679577823f.jpg)
 	* Casing for the recieving and motor control setup was made
+
+## Finialized Product ##
+
+* Below are pictures depicting the final product
+![image045](https://user-images.githubusercontent.com/29260264/31088327-d95c3972-a765-11e7-8fe0-ec863797b32d.jpg)
+![image046](https://user-images.githubusercontent.com/29260264/31088314-ceff1e9a-a765-11e7-916d-c00da4ade9be.jpg)
+![image047](https://user-images.githubusercontent.com/29260264/31088340-eb1e9bbe-a765-11e7-84d4-3404215f7442.jpg)
