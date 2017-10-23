@@ -9,4 +9,4 @@
 	![image035](https://user-images.githubusercontent.com/29260264/30825247-dd5dc702-a1f7-11e7-8d6a-d9c49f644494.gif)
 	![image036](https://user-images.githubusercontent.com/29260264/30825303-13699434-a1f8-11e7-8637-f4e0008514f1.gif)
 	![img_20170925_134212](https://user-images.githubusercontent.com/29260264/31900624-af5ee7c0-b7e4-11e7-893e-a8679577823f.jpg)
-	* Casing for the recieving and motor control setup was made
+	* Casing for the recieving and motor control setup were made to contain the wiring at the bottom of the maze setup
