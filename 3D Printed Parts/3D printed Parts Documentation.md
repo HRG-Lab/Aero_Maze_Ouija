@@ -1,6 +1,7 @@
 ## Producing 3D Printed Housing ##
 
 * Using Autodesk Fusion 360 
+* These can be found under the filepath Aero_Maze_Ouija->3D Printed Parts
 	* The housing for the sensors consisted of a 3D printed box and lid seen below
 	![image037](https://user-images.githubusercontent.com/29260264/30825345-3d657d48-a1f8-11e7-92df-32eeb1e280d9.png)
         ![image042](https://user-images.githubusercontent.com/29260264/30825557-03e7090a-a1f9-11e7-96ae-c3a3d9a35553.gif)
