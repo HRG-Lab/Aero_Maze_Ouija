@@ -128,7 +128,7 @@
 
     <img src="https://user-images.githubusercontent.com/29260218/28724404-7e5c01c0-737f-11e7-9240-b512439a4a5d.jpg" width="250">
 
-* In the code you will also need to include the lines XBee xbee = XBee(); and Serial3.begin(9600). A test code we used to verify that we could communicate through the Teensys and XBee setup can be found at the file-path:
+* In the code you will also need to include the lines XBee xbee = XBee(); and Serial3.begin(9600). A test code used to verify communication through the Teensys and XBee setup can be found at the file-path:
 `Aero_Maze_Ouija/Arduino Code/Test Code/communication_Test/communication Test.ino`
 	
 * This code allows you to send messages to and from the serial monitor.
@@ -183,7 +183,8 @@
 ## Producing 3D Printed Housing ##
 
 * Using Autodesk Fusion 360 
-	* The housing for the sensors consisted of a 3D printed box and lid seen below: Dimensions 8.5cm by 7.5cm by 7.4cm
+* These can be found under the filepath Aero_Maze_Ouija->3D Printed Parts
+	* The housing for the sensors consisted of a 3D printed box and lid seen below: Dimensions 8.5cm by 7.5cm by 7.4cm.
 	![image037](https://user-images.githubusercontent.com/29260264/30825345-3d657d48-a1f8-11e7-92df-32eeb1e280d9.png)
         ![image042](https://user-images.githubusercontent.com/29260264/30825557-03e7090a-a1f9-11e7-96ae-c3a3d9a35553.gif)
 	* Brackets were made for the maze to be mounted on as seen below: &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
