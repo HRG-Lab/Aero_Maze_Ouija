@@ -91,7 +91,7 @@
 
     <img src="https://user-images.githubusercontent.com/29260218/28724404-7e5c01c0-737f-11e7-9240-b512439a4a5d.jpg" width="250">
 
-* In the code you will also need to include the lines XBee xbee = XBee(); and Serial3.begin(9600). A test code we used to verify that we could communicate through the Teensys and XBee setup can be found at the file-path:
+* In the code you will also need to include the lines XBee xbee = XBee(); and Serial3.begin(9600). A test code used to verify  communication through the Teensys and XBee setup can be found at the file-path:
 `Aero_Maze_Ouija/Arduino Code/Test Code/communication_Test/communication Test.ino`
 	
 * This code allows you to send messages to and from the serial monitor.
